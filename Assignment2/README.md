@@ -1,5 +1,3 @@
-Sure! Here’s the content that you can directly copy into your `README.md` file:
-
 ```markdown
 # ML Model Training and Scoring Pipeline
 
