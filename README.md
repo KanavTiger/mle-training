@@ -10,7 +10,7 @@ This repository serves as a portfolio of my learning and development throughout 
 
 ## Repo Structure
 
-The repository is organized into **five modules** to reflect the structure of the TAMLEP training program. Each module folder contains the necessary code, exercises, and projects specific to that module.
+The repository is organized into **five modules** to reflect the structure of the TAMLEP training program. Each module folder contains the necessary code, exercises, and projects specific to that module. Right now I have completed only **three modules.**
 
 
 ### Module Breakdown:
@@ -25,13 +25,6 @@ The repository is organized into **five modules** to reflect the structure of th
    - References on best practices on working with the usual python libraries that I use on a regular basis. Like creating the pipeline, function, class etc.
    - Hands-on tutorial ML Flow and exercise applying it to the housing price prediction problem
 
-4. **Module 4: Build & Deployment**
-   - Explore approaches to package and distribute your python code with other.
-   - Learn how to use Docker and how to use it for packaging more complex dependencies.
-
-5. **Module 5: Capstone using Code Templates**
-   - Code Templates for Regression- Pre Read Material.
-   - This is just a summary of all the learning.
 
 ## How to Use This Repository
 
@@ -48,7 +41,6 @@ The repository is organized into **five modules** to reflect the structure of th
 - **scikit-learn**: For machine learning models and pipelines.
 - **Matplotlib**: For data visualization.
 - **GitHub**: For version control and collaboration.
-- **Docker**: For  building, shiping, and runing applications in containers.
 
 ## Contribution
 
