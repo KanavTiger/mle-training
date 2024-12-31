@@ -10,7 +10,8 @@ This repository contains a Python package that can be installed and used easily.
 2. Install the package with:
 
   ```bash
-   pip install /path/to/package_name.whl```
+   pip install /path/to/package_name.whl
+   ```
 
 ### Using Source Distribution (.tar.gz) File
 1. Download the .tar.gz file from the distribution archive.
