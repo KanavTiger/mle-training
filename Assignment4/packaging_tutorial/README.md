@@ -38,7 +38,6 @@ Create a file 'test_installation.py' with the following content:
     ```python
         import package_name
         print(package_name.__version__)
-    ```
 
 Run the script:
     ```bash
