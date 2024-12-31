@@ -36,37 +36,33 @@ Create a file test_installation.py with the following content
 ## Testing the Installation
 Create a file 'test_installation.py' with the following content:
 ```bash
-    python import package_name
+    import package_name
     print(package_name.__version__)
 ```
 
 Run the script:
-
-    ```bash
-        python test_installation.py
-    ```
+```bash
+    python test_installation.py
+```
 
 If installed correctly, it will print the version of the package.
 
 ## Running the Application
 To run the application, use the command:
-
-    ```bash
-        command
-    ```
+```bash
+    command
+```
 
 ## Dependencies
 Dependencies are listed in the env.yml file. To install them, run:
-
-    ```bash
-        conda env create -f env.yml
-    ```
+```bash
+    conda env create -f env.yml
+```
 
 Activate the environment:
-
-    ```bash
-        conda activate your_environment_name
-    ```
+```bash
+    conda activate your_environment_name
+```
 
 ## Configuration & Logging
 Configuration and logs are stored in the specified directories. Refer to the documentation for detailed instructions on how to modify settings or view logs.
