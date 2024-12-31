@@ -35,11 +35,10 @@ Create a file test_installation.py with the following content
 
 ## Testing the Installation
 Create a file 'test_installation.py' with the following content:
-
-    ```bash
-        python import package_name
-        print(package_name.__version__)
-    ```
+```bash
+    python import package_name
+    print(package_name.__version__)
+```
 
 Run the script:
 
