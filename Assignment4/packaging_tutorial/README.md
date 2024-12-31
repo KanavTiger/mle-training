@@ -35,11 +35,14 @@ Create a file test_installation.py with the following content
 
 ## Testing the Installation
 Create a file 'test_installation.py' with the following content:
-    ```python
-        import package_name
+
+    ```bash
+        python import package_name
         print(package_name.__version__)
+    ```
 
 Run the script:
+
     ```bash
         python test_installation.py
     ```
@@ -48,17 +51,20 @@ If installed correctly, it will print the version of the package.
 
 ## Running the Application
 To run the application, use the command:
+
     ```bash
         command
     ```
 
 ## Dependencies
 Dependencies are listed in the env.yml file. To install them, run:
+
     ```bash
         conda env create -f env.yml
     ```
 
 Activate the environment:
+
     ```bash
         conda activate your_environment_name
     ```
