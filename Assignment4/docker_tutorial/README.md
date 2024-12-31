@@ -12,11 +12,11 @@ This repository contains the Docker setup for the housing price prediction appli
 ### 2.**Test Locally**
 - Built the Docker image:
 ```bash
-    docker build -t housing-price-prediction .
+    docker build -t my-housing-prediction .
 ```
 - Ran the container:
 ```bash
-    docker run -p 5000:5000 housing-price-prediction
+    docker run -p 5000:5000 my-housing-prediction
 ```
 ### 3.**Create Git Branch from v0.3 Tag**
 - Created a new branch from the v0.3 tag:
@@ -31,26 +31,27 @@ This repository contains the Docker setup for the housing price prediction appli
 ### 4.**Push Docker Image to DockerHub**
 - Tagged and pushed the image to DockerHub:
 ```bash
-    docker tag housing-price-prediction <dockerhub-username>/housing-price-prediction:v1.0
-    docker push <dockerhub-username>/housing-price-prediction:v1.0
+    docker tag my-housing-prediction kanav1729/my-housing-prediction
+    docker push kanav1729/my-housing-prediction
 ```
 
 
 ### 5.**Pull and Test Docker Image**
 - Pulled the Docker image from DockerHub:
 ```bash
-    docker pull <dockerhub-username>/housing-price-prediction:v1.0
+    docker pull kanav1729/my-housing-prediction
 ```
 - Ran the container and verified the app on port 5000.
 
 ## DockerHub Link
 You can access the Docker image here:
-"https://packaging.python.org/en/latest/tutorials/packaging-projects/"
+"https://hub.docker.com/r/kanav1729/my-housing-prediction"
 ```bash
-vbnet
     This should now be fully contained within the markdown code block, ensuring you can copy the entire file as intended. Just replace `<dockerhub-username>` with your actual DockerHub username.
 
     Let me know if you need anything else!
 ```
 
+## Images
+There is a screeshot attached as proof of successfull run of docker. Titled as `Docker_Run.png`
 
